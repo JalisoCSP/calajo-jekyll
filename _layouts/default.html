@@ -2,26 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ site.title }}</title>
     <link rel="stylesheet" href="/assets/barnaul.css">
     <link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic,400italic,700italic,900italic">
   </head>
   <body>
     {{ content }}
-    <footer class='m-0'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-sm-6'>
-            <p>
-              Copyright &copy; {{ site.title }} {{ site.time | date: "%Y" }}
-            </p>
-          </div>
-          <div class='col-sm-6 text-center'>
-            <a href="https://craigpetterson.co.uk", class="entypo-social sm-icon">
-              Calajo is the trading name for Craig Petterson</a>
-          </div>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>

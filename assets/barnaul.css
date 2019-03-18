@@ -11,6 +11,9 @@ html {
 }
 body {
   margin: 0;
+  /* Moved BG from brn-promo */
+  background: url("/assets/bg-red.jpg") 50% 0 no-repeat #cc1433;
+  background-size: cover;
 }
 article,
 aside,
@@ -9115,8 +9118,6 @@ section#header {
 #brn-promo {
   margin-top: 0;
   margin-bottom: 96px;
-  background: url("/assets/bg-red.jpg") 50% 0 no-repeat #cc1433;
-  background-size: cover;
 }
 #brn-promo h1 {
   margin-top: 96px;
