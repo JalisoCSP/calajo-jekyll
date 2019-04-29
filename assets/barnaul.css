@@ -9118,6 +9118,11 @@ section#header {
 #brn-promo {
   margin-top: 0;
   margin-bottom: 96px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 #brn-promo h1 {
   margin-top: 96px;
